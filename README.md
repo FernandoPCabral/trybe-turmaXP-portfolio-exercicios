@@ -1,4 +1,4 @@
-# Trybe
+# Trybe - Turma XP - Tribo B
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Fernando Pereira Cabral](www.linkedin.com/in/fernandopcabral)_ enquanto estudava em [Trybe](https://www.betrybe.com/) :rocket:
 
