@@ -1,6 +1,6 @@
-# UNIX e BASH Parte 2
+# UNIX e BASH Parte 1
 
-# Manipulação & Busca
+# Parte 2 - Manipulação & Busca
 
 
 1. Na pasta unix_tests, baixe um arquivo com os nomes de todos os países Do mundo utilizando o comando curl:
