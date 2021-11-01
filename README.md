@@ -1,6 +1,6 @@
 # Trybe - Turma XP - Tribo B
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Fernando Pereira Cabral](www.linkedin.com/in/fernandopcabral)_ enquanto estudava em [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Fernando Pereira Cabral](https://www.linkedin.com/in/fernandopcabral/)_ enquanto estudava em [Trybe](https://www.betrybe.com/) :rocket:
 
 _“Trybe é a escola do futuro para quem quer melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando consegue um bom emprego.”_
 
