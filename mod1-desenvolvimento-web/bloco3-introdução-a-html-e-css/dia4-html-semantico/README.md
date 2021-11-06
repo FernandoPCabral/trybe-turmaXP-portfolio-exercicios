@@ -2,9 +2,9 @@
 
 ## Agora a prática
 
-Antes de fazer os exercícios, crie um arquivo *HTML* na pasta exercises/introducao-a-html-e-css.4 e copie o código abaixo:
+Antes de fazer os exercícios, crie um arquivo *HTML* na pasta `exercises/introducao-a-html-e-css.4` e copie o código abaixo:
 
-**index.html**
+`index.html`
 
 <!DOCTYPE html>
 <html>
@@ -23,24 +23,24 @@ Para tal, criaremos uma página que apresenta um dos animais mais impressionante
 
 Para uma melhor organização, faça commits a cada tarefa concluída. Vamos aos exercícios:
 
-1. Adicione um cabeçalho na página contendo o título **Soco a 80km/h: Conheça o Stomatopoda.**
+1. Adicione um cabeçalho na página contendo o título `Soco a 80km/h: Conheça o Stomatopoda.`
 2. Adicione um conjunto de links que representam a área de navegação do site.
 
-- Crie um link chamado **Página Inicial.**
-- Crie um link chamado **Sobre.**
-- Crie um link chamado **Contato.**
+- Crie um link chamado `Página Inicial.`
+- Crie um link chamado `Sobre.`
+- Crie um link chamado `Contato.`
 
-3. Crie um artigo que vai conter os fatos interessantes sobre o **Stomatopoda**. O artigo terá o subtítulo **Fatos sobre o Stomatopoda.** Segue _[um site animal](https://theoatmeal.com/comics/mantis-shrimp)_ de inspiração para pegar fatos.
+3. Crie um artigo que vai conter os fatos interessantes sobre o `Stomatopoda`. O artigo terá o subtítulo `Fatos sobre o Stomatopoda.` Segue _[um site animal](https://theoatmeal.com/comics/mantis-shrimp)_ de inspiração para pegar fatos.
 
 4. Divida o artigo em seções, organizando-o da seguinte forma:
 
-- Uma primeira seção contendo informações gerais a respeito do animal. O subtítulo para essa seção fica a seu critério. É necessário que conste nessa seção seu *nome científico*, que é **Odontodactylus scyllarus**, em itálico. Além disso, é preciso que haja informação tabular a respeito de sua classificação científica, em específico: **Reino, Filo, Subfilo, Classe, Subclasse e Ordem.** Tais informações você consegue obter _[na Wikipedia.](https://pt.wikipedia.org/wiki/Stomatopoda)_
+- Uma primeira seção contendo informações gerais a respeito do animal. O subtítulo para essa seção fica a seu critério. É necessário que conste nessa seção seu *nome científico*, que é `Odontodactylus scyllarus`, em itálico. Além disso, é preciso que haja informação tabular a respeito de sua classificação científica, em específico: `Reino, Filo, Subfilo, Classe, Subclasse e Ordem.` Tais informações você consegue obter _[na Wikipedia.](https://pt.wikipedia.org/wiki/Stomatopoda)_
 
 - As outras seções dizem respeito aos fatos interessantes que você escolheu acerca do animal. Para cada fato escolhido você vai criar uma seção.
 
 - Adicione, para cada seção, um subtítulo referente ao fato escolhido.
 
-- Adicione, para cada seção, parágrafo(s) descrevendo o fato escolhido. Destaque características impressionantes referentes ao fato que você escolheu, de forma a reforçar a unicidade do **Stomatopoda.** Por exemplo: se você criar uma seção detalhando o soco potente do animal, seria interessante destacar a velocidade desse soco (80km/h)[www.google.com] em negrito.
+- Adicione, para cada seção, parágrafo(s) descrevendo o fato escolhido. Destaque características impressionantes referentes ao fato que você escolheu, de forma a reforçar a unicidade do `Stomatopoda.` Por exemplo: se você criar uma seção detalhando o soco potente do animal, seria interessante destacar a velocidade desse soco (80km/h) em negrito.
 
 - Adicione, para cada seção, uma imagem, como forma de ilustrar o fato.
 
@@ -52,11 +52,11 @@ Para uma melhor organização, faça commits a cada tarefa concluída. Vamos aos
 
 > "Conteúdo compilado por <insere seu nome>, <ano atual>".
 
-*Obs:* para esse exercício, é obrigatório fazer uso de, **no mínimo**, 6 elementos com as seguintes tags: **header, nav, article, section, h1, h2, h3, aside, footer, table e img.**
+*Obs:* para esse exercício, é obrigatório fazer uso de, **no mínimo**, 6 elementos com as seguintes tags: `header, nav, article, section, h1, h2, h3, aside, footer, table e img.`
 
 ## Validando com CodeSniffer
 
-Agora que você criou a página mostrando fatos interessantes a respeito do **Stomatopoda**, suponha que uma pessoa com deficiência visual acesse sua página. Será que sua página estará **acessível** para essa pessoa?🤔
+Agora que você criou a página mostrando fatos interessantes a respeito do `Stomatopoda`, suponha que uma pessoa com deficiência visual acesse sua página. Será que sua página estará **acessível** para essa pessoa?🤔
 
 Vamos averiguar!
 
@@ -70,17 +70,17 @@ Para cada erro de validação mostrado, você tem à disposição um link para a
 
 ## Validando com LightHouse
 
-Como alternativa, podemos usar o Lighthouse para verificar a acessibilidade e outras coisas. Para isto, abra o site que criou utilizando a extensão **Live Server** do **VSCode**. Iremos utilizar o DevTools do navegador Chrome para analisar a acessibilidade, seguindo os seguintes passos:
+Como alternativa, podemos usar o Lighthouse para verificar a acessibilidade e outras coisas. Para isto, abra o site que criou utilizando a extensão `Live Server` do `VSCode`. Iremos utilizar o DevTools do navegador Chrome para analisar a acessibilidade, seguindo os seguintes passos:
 
-1. Abra o **DevTools** utilizando uma das seguintes formas: **(OBS: Você deverá estar na janela do navegador)**
+1. Abra o `DevTools` utilizando uma das seguintes formas: **(OBS: Você deverá estar na janela do navegador)**
 
-- Aperte a tecla **F12**;
+- Aperte a tecla `F12`;
 
-- Utilize o atalho **CTRL + SHIFT + I**;
+- Utilize o atalho `CTRL + SHIFT + I`;
 
-- Através da interface clique nos três pontos na parte superior direita da tela, abrirá um menu, clique em **More tools** e depois em **Developer Tools.**
+- Através da interface clique nos três pontos na parte superior direita da tela, abrirá um menu, clique em `More tools` e depois em `Developer Tools.`
 
-2. No menu superior haverão várias abas, a que queremos se chama **Lighthouse**. Caso ela esteja escondida, procure por um botão com o ícone similar a >>.
+2. No menu superior haverão várias abas, a que queremos se chama `Lighthouse`. Caso ela esteja escondida, procure por um botão com o ícone similar a `>>`.
 
 Antes de selecionar: >>
 
