@@ -1,0 +1,5 @@
+# BLOCO 2 - Git, GitHub e Internet
+
+Esse bloco pertence ao módulo de `Fundamentos do Desenvolvimento Web` do curso da [Trybe](https://www.betrybe.com/). Nesse bloco aprendi sobre os principais conceitos do `Controle de Versão` e os diferentes tipos de sistemas de controle de versão disponíveis. Aprendi também sobre o `GIT`, um sistema de controle de versão distribuído e quais suas aplicações no dia a dia de trabalho em uma empresa. Aprendi sobre repositórios locais e remotos, as `Pull Requests` e o uso do `GitHub` nesse contexto e por fim, aprendi as definições e usos corretos de `Branch, Merge e Commit`. Na parte do bloco sobre Internet, aprendi de forma ampla e aprofundada sobre o modelo `Cliente-Servidor` e os protocolos `HTTP e HTTPS`
+
+**Os exercícios deste bloco serviram de base para configurações iniciais e padronizações do Git e GitHub afim de alinhar esses pontos para a continuidade do curso. O dia 3 - Internet - teve como exercício uma dinâmica realizada em grupo com apresentação pela plataforma Zoom sobre os fluxos de informações no formado de rede Cliente-Servidor. Por estes motivos, está pasta de exercícios ficará vazia.**

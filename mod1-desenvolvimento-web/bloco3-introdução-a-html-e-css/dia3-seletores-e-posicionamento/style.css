@@ -1,0 +1,50 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    margin: 50px;
+    padding: 25px;
+}
+
+body{
+    background-color: #C8D6AF
+}
+
+#descricao{
+    font-style: italic;
+}
+
+.primeirositens{
+    font-size: 25px;
+}
+
+.segundositens{
+    font-size: 20px;
+}
+
+.terceirositens{
+    font-size: 15px;
+}
+
+div h1{
+    text-align: center;
+}
+
+div p{
+    float: right;
+    margin-right: 650px;
+    margin-top: 250px;
+}
+
+div img{
+    padding: 20px;
+    background-color: black;
+}
+
+ol li.impares{
+    text-decoration: line-through;
+    color: darkred;
+}

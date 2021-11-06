@@ -1,0 +1,46 @@
+# UNIX e BASH Parte 2
+
+# Parte 2 - Permissões
+
+
+1. Navegue até a pasta unix_tests.
+
+
+> cd unix_tests
+
+
+2. Rode o comando ls -l e veja quais as permissões dos arquivos.
+
+
+> ls -l
+total 4
+-rw-r--r-- 1 fernando fernando 1945 nov  1 15:54 bunch_of_things.txt
+
+
+3. Mude a permissão Do arquivo bunch_of_things.txt para que todos os usuários possam ter acesso à leitura e escrita, e verifique se está correto com o comando ls -l.
+
+
+> chmod a+w bunch_of_things.txt
+> ls -l
+total 4
+-rw-rw-rw- 1 fernando fernando 1945 nov  1 15:54 bunch_of_things.txt
+
+
+4. Tire a permissão de escrita Do arquivo bunch_of_things.txt para todos os usuários, verifique se está correto com o comando ls -l
+
+
+> chmod a-w bunch_of_things.txt
+> ls -l
+total 4
+-r--r--r-- 1 fernando fernando 1945 nov  1 15:54 bunch_of_things.txt
+
+
+5. Volte à permissão Do arquivo bunch_of_things.txt para a listada inicialmente utilizando o comando chmod 644 bunch_of_things.txt
+
+
+> chmod 644 bunch_of_things.txt
+total 4
+-rw-r--r-- 1 fernando fernando 1945 nov  1 15:54 bunch_of_things.txt
+
+
+# Fim do Exercício.
