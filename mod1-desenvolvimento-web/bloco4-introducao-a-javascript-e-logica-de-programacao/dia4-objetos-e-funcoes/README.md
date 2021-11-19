@@ -35,7 +35,7 @@ Pato Donald
 Namorada do personagem principal nos quadrinhos do Pato Donald
 Sim
 
-5 - Agora, defina um segundo objeto com a mesma estrutura (as mesmas chaves) do primeiro e os seguintes valores: 'Tio Patinhas', 'Christmas on Bear Mountain, Dell's Four Color Comics #178', 'O último MacPatinhas', 'Sim'. Então, imprima os valores de cada objeto juntos de acordo com cada uma das chaves. Valor esperado no console:
+5. Agora, defina um segundo objeto com a mesma estrutura (as mesmas chaves) do primeiro e os seguintes valores: 'Tio Patinhas', 'Christmas on Bear Mountain, Dell's Four Color Comics #178', 'O último MacPatinhas', 'Sim'. Então, imprima os valores de cada objeto juntos de acordo com cada uma das chaves. Valor esperado no console:
 
 Margarida e Tio Patinhas
 Pato Donald e Christmas on Bear Mountain, Dell's Four Color Comics #178
@@ -67,7 +67,7 @@ let leitor = {
   editor: 'Rocco',
 };
 
-8 - Acesse as chaves `nome` e `livrosFavoritos` e faça um `console.log` no seguinte formato: "Julia tem 2 livros favoritos".
+8. Acesse as chaves `nome` e `livrosFavoritos` e faça um `console.log` no seguinte formato: "Julia tem 2 livros favoritos".
 
 # Parte II - Funções
 
@@ -107,19 +107,19 @@ Array de teste: `['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];`.
 
 Valor esperado no retorno da função: `Fernanda`.
 
-5 - Crie uma função que receba um `array` de inteiros e retorne o inteiro que mais se repete.
+5. Crie uma função que receba um `array` de inteiros e retorne o inteiro que mais se repete.
 
 Array de teste: `[2, 3, 2, 5, 8, 2, 3];`.
 
 Valor esperado no retorno da função: `2`.
 
-6 - Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
+6. Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
 
 Valor de teste: `N = 5`.
 
 Valor esperado no retorno da função: 1+2+3+4+5 = `15`.
 
-7 - Crie uma função que receba uma `string word` e outra `string ending`. Verifique se a `string ending` é o final da `string word`. Considere que a `string ending` sempre será menor que a `string word`.
+7. Crie uma função que receba uma `string word` e outra `string ending`. Verifique se a `string ending` é o final da `string word`. Considere que a `string ending` sempre será menor que a `string word`.
 
 Valor de teste: `'trybe'` e `'be'`
 
