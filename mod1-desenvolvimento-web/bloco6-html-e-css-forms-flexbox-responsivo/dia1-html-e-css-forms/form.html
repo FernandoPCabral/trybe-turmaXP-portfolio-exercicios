@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Currículo</h1>
+
+        <form method="post" action="" enctype="multipart/form-data">
+
+            <fieldset>
+
+                <div>
+                    <label for="nome-completo">Nome Completo:
+                        <input type="text" name="nome" placeholder="Digite seu nome" id="nome-completo" maxlength="40" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="email-usuario">Digite seu e-mail:
+                        <input type="email" name="e-mail" placeholder="digite seu e-mail" id="email-usuario" maxlength="50" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="cpf-usuario">Digite seu CPF:
+                        <input type="number" name="cpf" placeholder="Digite seu CPF sem pontos" id="cpf-usuario" maxlength='11' required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="endereco-usuario">Digite seu Endereço:
+                        <input type="text" name="endereco" placeholder="Digite seu Endereço" id="endereco-usuario" maxlength="200" required>
+                    </label>
+                    <label for="cidade-usuario">Digite sua Cidade:
+                        <input type="text" name="cidade" placeholder="Digite sua cidade" id="cidade-usuario" maxlength="28" required>
+                    </label>
+                    <label for="estado-usuario">Escolha seu Estado:
+                        <select name="Estado" id="estado-usuario" required>
+                            <option value="sem-selecao" name="nao-selecionado" selected disabled>--
+                            </option>
+                        </select>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="casa-usuario">
+                        <input type="radio" id="casa-usuario" name="tipo-resid" value="casa" checked>Casa
+                    </label>
+
+                    <label for="apto-usuario">
+                        <input type="radio" id="apto-usuario" name="tipo-resid" value="apto">Apartamento
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div>
+                    <label for="curriculo-usuario">Resumo do Currículo:
+                        <textarea id="curriculo-usuario" name="resumo-curriculo" placeholder="Nos conte um resumo do seu currículo" maxlength="1000" cols="100" rows="10" required></textarea>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="cargo-usuario">Cargo:
+                        <input type="text" id="cargo-usuario" name="cargo" placeholder="Digite seu Cargo" maxlength="40" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="descricao-usuario">Descrição do Cargo:
+                        <input type="text" id="descricao-usuario" name="descricao" placeholder="Digite a descrição" maxlength="500" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="data-inicio-usuario"> Selecione a data de início
+                        <input type="date" name="data" id="data-inicio-usuario" min="0000-01-01" max="2021-12-31" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="botao-submit">
+                        <button type="submit" id="botao-submit">Enviar</button>
+                    </label>
+                </div>
+
+
+            </fieldset>
+
+
+        </form>
+        <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

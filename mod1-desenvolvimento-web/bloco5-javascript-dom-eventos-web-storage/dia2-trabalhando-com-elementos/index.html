@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Exercício 5.2</title>
+        <style>
+            section {
+                border-color: black;
+                border-style: solid;
+            }
+
+            .title {
+                text-align: center;
+            }
+
+            .main-content {
+                background-color: yellow;
+            }
+
+            .main-content .center-content {
+                background-color: red;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .main-content .center-content p {
+                font-style: italic;
+            }
+
+            .main-content .left-content {
+                background-color: green;
+                width: 60%;
+                margin-left: 0;
+                margin-right: auto;
+            }
+
+            .main-content .left-content .small-image {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 100%;
+            }
+
+            .main-content .right-content {
+                background-color: blue;
+                width: 60%;
+                margin-left: auto;
+                margin-right: 0;
+            }
+
+            .main-content .description {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            // Ex 1.//
+
+                var primeiroTitulo = document.createElement('h1')
+                primeiroTitulo.innerText = 'Exercício 5.2 - JavaScript DOM'
+                document.body.appendChild(primeiroTitulo)
+
+            //Ex 2.//
+
+                var partePrincipal = document.createElement('main')
+                partePrincipal.className = 'main-content'
+                document.body.appendChild(partePrincipal)
+
+            //Ex 3.//
+
+                var sessaoCentro = document.createElement('section')
+                sessaoCentro.className = 'center-content'
+                body.main.appendChild(sessaoCentro)
+
+            //Ex 4.//
+
+                var primeiroParagrafo = document.createElement('p')
+                p.innerText = 'O primeiro Parágrafo'
+                document.body.main.section.appendChild(primeiroParagrafo)
+
+            //Ex 5.//
+
+                var sessaoEsquerda = document.createElement('section')
+                sessaoEsquerda.className = 'left-content'
+                document.body.main.appendChild(sessaoEsquerda)
+
+            //Ex 6.//
+
+                var sessaoDireita = document.createElement('section')
+                sessaoDireita.className = 'right-content'
+                document.body.main.appendChild(sessaoDireita)
+
+            //Ex 7.//
+
+                var primeiraImagem = document.createElement('img')
+                primeiraImagem.src = 'https://picsum.photos/200'
+                primeiraImagem.className = 'small-image'
+                document.body.main.section.appendChild(primeiraImagem)
+
+            //Ex 8.//
+
+                let numerosExtenso = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"]
+                var listaNumeros = document.createElement('ul')
+
+                for (let index = 1; index <= 10; index += 1 ) {
+                    let numeroLista = document.createElement('li')
+                    numeroLista.innerText = numerosExtenso[index]
+                    document.body.main.section.ul.appendChild(numeroLista)
+                }
+
+            //Ex 9.//
+
+                for (let index = 1; index <= 3; index += 1){
+                    criaTag = document.createElement('h3')
+                    document.body.main.appendChild(criaTag)
+                }
+
+            //Ex 10.//
+
+                primeiroTitulo.className = "title"
+
+            //Ex 11.//
+
+                criaTag.className = "description"
+
+            //Ex 12.//
+
+                main.removeChild(sessaoEsquerda)
+
+            //Ex 13.//
+
+                document.querySelector('.right-content').style.margin-right: center;
+
+            //Ex 14.//
+
+                document.querySelector('.main-content').style.background-color: green;
+
+            //Ex 15.//
+
+                
+        </script>
+    </body>
+</html>
